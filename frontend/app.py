@@ -56,7 +56,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-BACKEND_URL = "http://127.0.0.1:8000"
+BACKEND_URL = "https://ai-docs-chatbot-production.up.railway.app"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
